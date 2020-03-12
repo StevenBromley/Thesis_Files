@@ -19,8 +19,6 @@ Directory 1: 'gas_jet':
 	
 Directory 2: 'gold_analysis'
 --
--folder 'raw_data': all gold raw (x-ray contaminated) spectra files
--folder 'raw_data_noxrays_nosum': all gold x-ray-removed spectra files)
 -files:
 		-'master shot log': .csv file summarizing the CTH gold and nickel discharges
 			-each numerical listing corresponds to a probe and depth with a unique shot number
@@ -34,6 +32,7 @@ Directory 2: 'gold_analysis'
 		-'table_auI_level_info.txt' and 'table_auII_level_info.txt':
 			-contains level information for Au I and Au II w/ LaTeX formatting characters
 			-Format: Col 0 (Numerical Label), Col 1 (configuration), Col 2 (J Value), Col 3 (Energy in cm^-1), Col 4 (Reference)
+		-'18113010.csv': sample spectra from gold analysis
 -scripts:
 	-'steve_lib.py': master library contains many functions used in the codes below. Heavily suggested to import before running any of these scripts
 	-'Calculating New Lines from Levels.py':
